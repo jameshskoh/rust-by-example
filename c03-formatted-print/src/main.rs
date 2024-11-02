@@ -14,8 +14,11 @@ fn main() {
 
     /*
      * {} will be automatically replaced with arguments
-     * 1. The arguments will be stringified
-     * 2. The arguments have to implement fmt::Display to support formatting
+     * Important: the arguments have to implement fmt::Display/fmt::Debug(?) to support formatting
+     *
+     * 2 important traits in std::fmt
+     * 1. fmt::Debug
+     * 2. fmt::Display (implements the ToString trait)
      */
     println!("{} days", 31);
 
@@ -60,4 +63,18 @@ fn main() {
     let number: f64 = 1.0;
     let width: usize = 5;
     println!("{number:width$}");
+
+    /*
+     * Note that the printed number (3.1416) is rounded (instead of truncated)
+     */
+    println!(
+        "pi to 5 significant figures is {pi:.precision$}",
+        pi = std::f64::consts::PI,
+        precision = 4
+    );
+
+    /*
+     * You can format number in scientific notation using `e`
+     */
+    println!("{number:.precision$e}", number = 1234567, precision = 3)
 }
