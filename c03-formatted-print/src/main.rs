@@ -14,7 +14,7 @@ fn main() {
 
     /*
      * {} will be automatically replaced with arguments
-     * Important: the arguments have to implement fmt::Display/fmt::Debug(?) to support formatting
+     * Important: the arguments have to implement fmt::Display/fmt::Debug to support formatting
      *
      * 2 important traits in std::fmt
      * 1. fmt::Debug
