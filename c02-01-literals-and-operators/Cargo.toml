@@ -1,5 +1,5 @@
 [package]
-name = "literals-and-operators"
+name = "c02-01-literals-and-operators"
 version = "0.1.0"
 edition = "2021"
 
