@@ -55,6 +55,11 @@ impl fmt::Display for Point2D {
  * Reference: https://doc.rust-lang.org/rust-by-example/hello/print/print_display.html
  */
 
+/*
+ * A way to deal with formatting a list, where each of the element could throw error.
+ * Reference: https://doc.rust-lang.org/rust-by-example/hello/print/print_display/testcase_list.html
+ */
+
 fn main() {
     println!("A Structure: {}", Structure(30, 50));
 
