@@ -1,5 +1,5 @@
 [package]
-name = "c01-hello-world"
+name = "c01-01-comments"
 version = "0.1.0"
 edition = "2021"
 

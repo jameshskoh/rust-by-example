@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "c05-display"
+name = "c01-01-comments"
 version = "0.1.0"

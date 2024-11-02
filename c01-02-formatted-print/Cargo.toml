@@ -1,5 +1,5 @@
 [package]
-name = "c03-formatted-print"
+name = "c01-02-formatted-print"
 version = "0.1.0"
 edition = "2021"
 

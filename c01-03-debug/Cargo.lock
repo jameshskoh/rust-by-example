@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "c03-formatted-print"
+name = "c01-03-debug"
 version = "0.1.0"

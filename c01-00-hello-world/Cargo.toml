@@ -1,5 +1,5 @@
 [package]
-name = "c04-debug"
+name = "c01-00-hello-world"
 version = "0.1.0"
 edition = "2021"
 

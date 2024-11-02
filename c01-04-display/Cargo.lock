@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "c04-debug"
+name = "c01-04-display"
 version = "0.1.0"

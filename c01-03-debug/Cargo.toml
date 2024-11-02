@@ -1,5 +1,5 @@
 [package]
-name = "c05-display"
+name = "c01-03-debug"
 version = "0.1.0"
 edition = "2021"
 
