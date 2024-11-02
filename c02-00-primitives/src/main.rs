@@ -1,12 +1,18 @@
 fn main() {
     /*
      * Primitive provided:
-     * Signed integers      i8, i16, i32, i64, i128, and isize
-     * Unsigned integers    u8, u16, u32, u64, u128, and usize
+     *
+     * Scalar types:
+     * Signed integer       i8, i16, i32, i64, i128, and isize
+     * Unsigned integer     u8, u16, u32, u64, u128, and usize
      * Floating point       f32, f64
      * char                 Unicode characters, 4 bytes each
      * bool
      * unit type            () an empty tuple (that is not a compound type), like `never` in TypeScript(?)
+     *
+     * Compound types:
+     * 1. Arrays
+     * 2. Tuples
      */
 
     /*
